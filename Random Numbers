@@ -1,0 +1,20 @@
+package basix;
+
+import java.util.Scanner;
+
+public class RandomBasic {
+	public static void main(String[]args) {
+		double d = Math.random();
+		Scanner input = new Scanner(System.in);
+		System.out.println("enter a number : ");
+		double user = input.nextDouble();
+		if(user>=d) {
+			System.out.println("too high try again");
+		}
+		else {
+			System.out.println("too lower try again");
+		
+			}
+		}
+	}
+
